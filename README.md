@@ -8,7 +8,6 @@ This project focuses on implementing mapping and navigation functionalities on t
 
 ### Files Included in the Repository 
 - **`Kalman_all.m`**: MATLAB script used for processing sensor data (IMU and Odometry) with a Kalman filter.  
-- **`README.md`**: This README file, summarizing the project and guiding setup and usage.  
 - **`catkin_ws_computer.zip`**: A zipped Catkin workspace containing ROS1 packages and configurations used for the project. Extract this folder to work with the ROS environment.  
 - **`command_turtle.txt`**: This file was used as a reference for frequently run commands like starting nodes, controlling the Turtlebot, and managing the ROS environment. 
 - **`simulation.m`**: MATLAB script for running simulations based on Turtlebot3 sensor data gathered with "Kalman_all.m". 
