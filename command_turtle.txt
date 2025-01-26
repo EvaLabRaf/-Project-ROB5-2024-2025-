@@ -1,0 +1,14 @@
+Remote Pc : 
+	roscore
+	ssh ubuntu@[IP-adress-Turtle]
+
+Turtlebot :
+	roslaunch turtlebot3_bringup turtlebot3_robot.launch
+
+Remote PC :
+	Téléop : roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch	
+	Topic Monitor : rqt
+	SLAM :	roslaunch turtlebot3_slam turtlebot3_slam.launch
+	Save Map :	rosrun map_server map_saver -f 
+	Navigation :	roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=/home/[user]
+
