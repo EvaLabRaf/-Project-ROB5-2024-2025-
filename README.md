@@ -1,8 +1,15 @@
-# Project-ROBO5
-Mapping and navigation on Turtlebot3
+# Project-ROBO5  
+**Mapping and Navigation on Turtlebot3**  
 
-To start the project, you need to flash the Turtlebot3 Noetic Image on the rasberry pi (4)
-Download the doc here : https://www.robotis.com/service/download.php?no=2066&_gl=1*oitbtc*_gcl_au*MTQ1MTAwODU4NC4xNzM3MDM1NTYw
-(Too heavy to be uploaded on github)
+## Overview  
+This project focuses on implementing mapping and navigation functionalities on the Turtlebot3 using ROS1 Noetic. By using the robot's sensors and ROS tools, we explored real-time motion control, data processing, and navigation in dynamic environments.
 
-Then you need to configure the IP configuration to allow the master/slave communication (and use the SSH)
+## Repository Structure  
+
+### Files Included in the Repository 
+- **`Kalman_all.m`**: MATLAB script used for processing sensor data (IMU and Odometry) with a Kalman filter.  
+- **`README.md`**: This README file, summarizing the project and guiding setup and usage.  
+- **`catkin_ws_computer.zip`**: A zipped Catkin workspace containing ROS1 packages and configurations used for the project. Extract this folder to work with the ROS environment.  
+- **`command_turtle.txt`**: This file was used as a reference for frequently run commands like starting nodes, controlling the Turtlebot, and managing the ROS environment. 
+- **`simulation.m`**: MATLAB script for running simulations based on Turtlebot3 sensor data gathered with "Kalman_all.m". 
+
